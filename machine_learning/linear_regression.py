@@ -64,7 +64,7 @@ def sum_of_square_error(data_x, data_y, len_data, theta):
     error = sum_elem / (2 * len_data)
     return error
 
-
+##Running the algorithm for model fit
 def run_linear_regression(data_x, data_y):
     """Implement Linear regression over the dataset
     :param data_x  : contains our dataset
